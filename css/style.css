@@ -1,0 +1,141 @@
+*{margin: 0; padding: 0; list-style: none;}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+}
+/*
+roxo - 87509c
+roxo escuro - 643a79
+laranja - eb7d4b
+*/
+
+nav.menu {
+    display: block;
+  }
+  
+nav.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20;
+    left: 300px;
+  }
+  
+nav.menu li {
+    display: inline-block;
+    background: #87509c;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: 6px;
+  }
+  
+nav.menu li:hover {
+    background-color: #643a79;
+  } 
+
+header {
+    background-color: #87509c;
+    padding: 5vw 10vw 10vw 10vw;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div nav ul {
+    display: flex;
+}
+
+header div nav ul li {
+    font-size: 2vh;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+
+body header h2 {
+    color: white;
+    text-align: center;
+    padding: 100px 50px 50px 50px;
+    font-size: 2.1em;
+}
+
+header {
+    margin-top: 2pvh;
+    text-align: center;
+    
+}
+
+header p a {
+    background-color: #eb7d4b;
+    border-radius: 5px;
+    padding: 22px 40px;
+}
+
+main section.servico {
+    background-color: #2f9b87;
+    padding: 5vw 10vw 10vw 10vw;
+    color: white;
+    text-align: center;
+}
+
+main section.servico h2 {
+    color: white;
+    text-align: center;
+    padding: 100px 50px 50px 50px;
+    font-size: 2.1em;
+}
+
+main section.servico>p {
+    display: inline-block;
+    font-size: 1.5em;
+    
+}
+
+main section.portifolio {
+    background-color: #ffdd99;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+main section.portifolio h1 {
+    color: black;
+    text-align: center;
+    padding: 100px 50px 50px 50px;
+    font-size: 2.1em;
+    margin-top: 90px;
+}
+
+
+nav.menuseg ul p{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20;
+    left: 300px;
+  }
+
+nav.menuseg li {
+    background: #ffdd99;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: 6px;
+  }
+
+nav.menuseg li:hover {
+    background-color: white;
+  } 
+
