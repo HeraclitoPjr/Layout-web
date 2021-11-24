@@ -5,6 +5,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+@media(max-width: 1200px) {
+    body {
+        width: 1024px;
+    }
+}
+
+@media(max-width: 1024px) {
+    body {
+        width: 700px;
+    }
+}
+
 body a {
     color: white;
     text-decoration: none;
@@ -100,42 +112,48 @@ main section.servico>p {
     
 }
 
-main section.portifolio {
+main section.servico ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+section.portifolio {
     background-color: #ffdd99;
     border-radius: 5px;
     color: black;
     text-align: center;
-    margin-left: -100px;
-    margin-right: -100px;
 }
 
-main section.portifolio h1 {
+section.portifolio h1 {
     color: black;
     text-align: center;
     padding: 100px 50px 50px 50px;
     font-size: 2.1em;
-    margin-top: 90px;
 }
 
-
-nav.menuseg ul p{
-    display: inline-block;
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: -20;
-    left: 300px;
-  }
-
 nav.menuseg li {
-    background: #ffdd99;
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
     border-radius: 6px;
+    display: inline-block;
+    margin-top: 20px;
   }
 
 nav.menuseg li:hover {
     background-color: white;
   } 
+
+div section.imagem ul li{
+    margin-top: 90px;
+    display: inline-block; 
+}
+input {
+    background-color: #0bdbb5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
 
